@@ -947,6 +947,29 @@ a.back-to-top:hover, a.back-to-top:focus {
   opacity: 1;
 }
 
+/* 
+Scorll bar coustomiztion
+ */
+ ::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FF809F;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FF4D79;
+}
+
 /* ==========================================================================
    Video Section Style
    ========================================================================== */
